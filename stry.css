@@ -1,0 +1,188 @@
+body{
+    background-image: url('img.jpg');
+    background-size: cover;
+}
+.back{
+    height: 130px;
+    width: 150px;
+    position: absolute;
+    right:8px;
+    background-image: url('img2.jpg');
+    background-size: cover;
+}
+#one{
+    position: absolute;
+    top: 100px;
+    height: 300px;
+    width: 300px;
+    background-image: url('me.jpg.jpeg');
+    background-size: cover;
+    left: 9px;
+    border-radius: 25%;
+    border: 3px  black;
+    border-style: solid;
+}
+#two{
+    position: absolute;
+    top: 450px;
+    left: 12px;
+    height: 270px;
+    width: 400px;
+    background-image: url('images1.jpg');
+    background-size: cover;
+    border-style: double;
+    border-radius: 15%;
+
+}
+#three{
+    text-align: center;
+    text-decoration: black;
+    
+    
+}
+#four{
+    text-align: center;
+    color: black;
+    border: 2px dashed;
+    background-color: burlywood;
+}
+#five{
+    font-size: 25px;
+    font-style:normal;
+}
+.six{
+    position: absolute;
+    right: 7px;
+    top: 250px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('download1.jpg');
+    background-size: cover;
+}
+
+#seven{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#eight{
+    font-size: 25px;
+    color: black;
+
+}
+.nine{
+    position: absolute;
+    right: 400px;
+    top: 90px;
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('download1.jpg');
+    background-size: cover;
+}
+#ten{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#eleven{
+    font-size: 25px;
+    color: black;
+
+}
+.twelve{
+    position: absolute;
+    right: 450px;
+    top: 420px;
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('download1.jpg');
+    background-size: cover;
+}
+#first{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#second{
+    font-size: 25px;
+    color: black;
+
+}
+.third{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: url('download1.jpg');
+    background-size: cover;
+}
+#fourth{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+#fifth{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.six:hover{
+    font-style: oblique;
+    font-weight:800;
+    font-variant: small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function:ease-in;
+
+}
+.nine:hover{
+    font-style: oblique;
+    font-weight:800;
+    font-variant: small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function:ease-in;
+
+
+}
+.twelve:hover{
+    font-style: oblique;
+    font-weight:800;
+    font-variant: small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function:ease-in;
+    
+    
+}    
+.third:hover{
+    font-style: oblique;
+    font-weight:800;
+    font-variant: small-caps;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    
+    
+
+}
+@keyframes animation{
+    from{transform:rotate(0deg); }
+    to{transform: rotate(360deg);}
+}    
